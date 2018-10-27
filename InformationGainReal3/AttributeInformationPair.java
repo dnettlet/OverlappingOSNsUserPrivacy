@@ -1,4 +1,4 @@
-// Copyright (C) 2018  Vladimir Estivill
+// Copyright (C) 2018  Vladimir Estivill-Castro
 // License: GNU GENERAL PUBLIC LICENSE v3.0   See LICENSE for the full license.
 
 /**
