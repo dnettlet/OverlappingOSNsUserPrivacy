@@ -35,7 +35,7 @@ public class SANreader {
     
      private static final Path path_to_file(String san_filename) {
      Path path = FileSystems.getDefault().getPath("data", san_filename+".txt");
-        //System.err.println("Path:"+path);
+        System.err.println("Path:"+path);
         return path;
     }
     
@@ -89,7 +89,7 @@ public class SANreader {
         theFileName = san_filename;
         theCharSet=nameCharset;
         try 
-            {   //System.err.println("Before reading");
+            {   System.err.println("Before reading");
             openTheOriginalSAN(theFileName, theCharSet);
             
             while (analizeNexTLine()) {
