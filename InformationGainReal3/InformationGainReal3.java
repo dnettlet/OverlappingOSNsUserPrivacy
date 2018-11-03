@@ -48,20 +48,9 @@ import createAttributes.createAttributesSG1;
 import createAttributes.createAttributesSG2;
 
 
-//import createAttributes.createAttributesNRed;
-
-/**
- *
- * @author vlad
- */
-
-
 public class InformationGainReal3 {
     
-    /* Rank the attributes of the given data set by InformaitonGain */
-    //final static String [] ATTRIBUTE_VALUES ={"YES","NO","FEMALE","MALE","INNER_CITY","TOWN","RURAL","SUBURBAN"};
-    //final static String DIFFERENT_VALUES ="DIFFERENT";
-    
+   
     public static Hashtable Users      = new Hashtable();
     public static Hashtable UsersT     = new Hashtable();
     public static Hashtable UsersTF    = new Hashtable();
@@ -73,7 +62,6 @@ public class InformationGainReal3 {
      */
     public static void main(String[] args) throws FileNotFoundException, IOException, Exception {
 
-    /* THE PARAMETER OF THE ALGORIYM*/
     final double Beta=0.01; // so we get at least 3 attributes (was 0.09 / 0.001)
     final int MAXIMUM_RULES_LENGHT=3;
     final int SET_SIZE_OF_PRIVATE_ATTRIBUTES=3;
