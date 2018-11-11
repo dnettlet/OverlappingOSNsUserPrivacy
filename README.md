@@ -1,2 +1,2 @@
 # OverlappingOSNsUserPrivacy
-How overlapping Online Social Networks can affect user privacy
+How being a member of multiple Online Social Networks can compromise your privacy
