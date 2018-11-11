@@ -1,0 +1,169 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMO -C 1.0 -L 0.0010 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     u0v0-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    157
+Attributes:   25
+              0
+              1
+              2
+              3
+              4
+              5
+              6
+              7
+              8
+              9
+              10
+              11
+              12
+              13
+              14
+              15
+              16
+              17
+              18
+              19
+              20
+              21
+              22
+              23
+              24
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: NO, YES
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.5623 * (normalized) 1
+ +      -2.001  * (normalized) 2
+ +      -1.7857 * (normalized) 3
+ +       1.7039 * (normalized) 4
+ +       0.1133 * (normalized) 5
+ +      -0.1175 * (normalized) 6
+ +      -0.1155 * (normalized) 7
+ +       0.1221 * (normalized) 8
+ +       0.0058 * (normalized) 9
+ +       0.0568 * (normalized) 10
+ +      -0.0565 * (normalized) 11
+ +      -0.2655 * (normalized) 12
+ +      -0.8779 * (normalized) 13
+ +       0.5646 * (normalized) 14
+ +      -0.1133 * (normalized) 15=0.0
+ +      -0.0658 * (normalized) 15=0.41-0.50
+ +       0.1879 * (normalized) 15=0.91-1.00
+ +      -0.1978 * (normalized) 15=0.31-0.40
+ +       0.2166 * (normalized) 15=0.61-0.70
+ +       0.179  * (normalized) 15=0.51-0.60
+ +       0.0841 * (normalized) 15=0.71-0.80
+ +      -0.2906 * (normalized) 15=0.81-0.90
+ +      -0.069  * (normalized) 16=0.71-0.80
+ +      -0.1175 * (normalized) 16=0.0
+ +      -0.0687 * (normalized) 16=0.41-0.50
+ +      -0.0687 * (normalized) 16=0.91-1.00
+ +      -0.0686 * (normalized) 16=0.51-0.60
+ +      -0.0687 * (normalized) 16=0.61-0.70
+ +      -0.0691 * (normalized) 16=0.31-0.40
+ +       0.5302 * (normalized) 16=0.81-0.90
+ +       0.1155 * (normalized) 17=0.0
+ +      -0.173  * (normalized) 17=0.21-0.30
+ +       0.0157 * (normalized) 17=0.51-0.60
+ +      -0.2487 * (normalized) 17=0.91-1.00
+ +       0.1999 * (normalized) 17=0.31-0.40
+ +      -0.1093 * (normalized) 17=0.61-0.70
+ +       0.2    * (normalized) 17=0.71-0.80
+ +      -0.1221 * (normalized) 18=0.0
+ +       0.2546 * (normalized) 18=0.31-0.40
+ +       0.2556 * (normalized) 18=0.41-0.50
+ +      -0.2655 * (normalized) 18=0.91-1.00
+ +       0.1262 * (normalized) 18=0.71-0.80
+ +      -0.2487 * (normalized) 18=0.21-0.30
+ +       0.1432 * (normalized) 19=0.91-1.00
+ +       0.0058 * (normalized) 19=0.0
+ +       0.3831 * (normalized) 19=0.81-0.90
+ +      -0.2435 * (normalized) 19=0.61-0.70
+ +       0.4219 * (normalized) 19=0.31-0.40
+ +       0.1579 * (normalized) 19=0.41-0.50
+ +       0.1948 * (normalized) 19=0.51-0.60
+ +      -0.8145 * (normalized) 19=0.71-0.80
+ +      -0.2487 * (normalized) 19=0.21-0.30
+ +      -0.1133 * (normalized) 20=0.0
+ +      -0.0658 * (normalized) 20=0.41-0.50
+ +       0.1879 * (normalized) 20=0.91-1.00
+ +      -0.1978 * (normalized) 20=0.31-0.40
+ +       0.2166 * (normalized) 20=0.61-0.70
+ +       0.179  * (normalized) 20=0.51-0.60
+ +       0.0841 * (normalized) 20=0.71-0.80
+ +      -0.2906 * (normalized) 20=0.81-0.90
+ +      -0.069  * (normalized) 21=0.71-0.80
+ +      -0.1175 * (normalized) 21=0.0
+ +      -0.0687 * (normalized) 21=0.41-0.50
+ +      -0.0687 * (normalized) 21=0.91-1.00
+ +      -0.0686 * (normalized) 21=0.51-0.60
+ +      -0.0687 * (normalized) 21=0.61-0.70
+ +      -0.0691 * (normalized) 21=0.31-0.40
+ +       0.5302 * (normalized) 21=0.81-0.90
+ +       0.1155 * (normalized) 22=0.0
+ +      -0.173  * (normalized) 22=0.21-0.30
+ +       0.0157 * (normalized) 22=0.51-0.60
+ +      -0.2487 * (normalized) 22=0.91-1.00
+ +       0.1999 * (normalized) 22=0.31-0.40
+ +      -0.1093 * (normalized) 22=0.61-0.70
+ +       0.2    * (normalized) 22=0.71-0.80
+ +      -0.1221 * (normalized) 23=0.0
+ +       0.2546 * (normalized) 23=0.31-0.40
+ +       0.2556 * (normalized) 23=0.41-0.50
+ +      -0.2655 * (normalized) 23=0.91-1.00
+ +       0.1262 * (normalized) 23=0.71-0.80
+ +      -0.2487 * (normalized) 23=0.21-0.30
+ +       0.1432 * (normalized) 24=0.91-1.00
+ +       0.0058 * (normalized) 24=0.0
+ +       0.3831 * (normalized) 24=0.81-0.90
+ +      -0.2435 * (normalized) 24=0.61-0.70
+ +       0.4219 * (normalized) 24=0.31-0.40
+ +       0.1579 * (normalized) 24=0.41-0.50
+ +       0.1948 * (normalized) 24=0.51-0.60
+ +      -0.8145 * (normalized) 24=0.71-0.80
+ +      -0.2487 * (normalized) 24=0.21-0.30
+ -       0.9083
+
+Number of kernel evaluations: 7023 (96.337% cached)
+
+
+
+Time taken to build model: 0.34 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         145               92.3567 %
+Incorrectly Classified Instances        12                7.6433 %
+Kappa statistic                          0.8179
+Mean absolute error                      0.0764
+Root mean squared error                  0.2765
+Relative absolute error                 18.6261 %
+Root relative squared error             61.1133 %
+Total Number of Instances              157     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.929     0.089      0.963     0.929     0.945      0.92     NO
+                 0.911     0.071      0.837     0.911     0.872      0.92     YES
+Weighted Avg.    0.924     0.084      0.927     0.924     0.924      0.92 
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 104   8 |   a = NO
+   4  41 |   b = YES
+
